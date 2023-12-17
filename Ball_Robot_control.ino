@@ -1,6 +1,5 @@
-//See BareMinimum example for a list of library functions
 
-//Includes required to use Roboclaw library
+//Include required libraries
 #include <SoftwareSerial.h>
 #include "RoboClaw.h"
 #include <Wire.h>
@@ -8,7 +7,6 @@
 
 
 
-//See limitations of Arduino SoftwareSerial
 SoftwareSerial serial(15,14);	
 RoboClaw roboclaw(&serial,10000);
 
